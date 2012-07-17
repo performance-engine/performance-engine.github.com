@@ -1,0 +1,136 @@
+{
+    "packages": {
+        "performance-engine/performance-engine": {
+            "dev-master": {
+                "name": "performance-engine/performance-engine",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "time": "2012-07-17 16:39:40",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/performance-engine/performance-engine.git",
+                    "reference": "0da7a7fe2cd339f278b42f10e1353c9fc05c1d33"
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.1.*",
+                    "doctrine/orm": "2.2.*",
+                    "doctrine/doctrine-bundle": "dev-master",
+                    "twig/extensions": "dev-master",
+                    "symfony/assetic-bundle": "dev-master",
+                    "symfony/swiftmailer-bundle": "dev-master",
+                    "symfony/monolog-bundle": "dev-master",
+                    "sensio/distribution-bundle": "dev-master",
+                    "sensio/framework-extra-bundle": "dev-master",
+                    "sensio/generator-bundle": "dev-master",
+                    "jms/security-extra-bundle": "1.1.*",
+                    "jms/di-extra-bundle": "1.0.*"
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+                    ],
+                    "post-update-cmd": [
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+                    ]
+                },
+                "type": "library",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-web-dir": "web"
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Yura Rodchyn",
+                        "homepage": "http://rodchyn.github.com/"
+                    }
+                ],
+                "description": "Performance Engine game backend system",
+                "homepage": "http://performance-engine.github.com/",
+                "keywords": [
+                    "performance-engine",
+                    "game"
+                ],
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                }
+            },
+            "dev-develop": {
+                "name": "performance-engine/performance-engine",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "time": "2012-07-17 16:39:40",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/performance-engine/performance-engine.git",
+                    "reference": "0da7a7fe2cd339f278b42f10e1353c9fc05c1d33"
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "symfony/symfony": "2.1.*",
+                    "doctrine/orm": "2.2.*",
+                    "doctrine/doctrine-bundle": "dev-master",
+                    "twig/extensions": "dev-master",
+                    "symfony/assetic-bundle": "dev-master",
+                    "symfony/swiftmailer-bundle": "dev-master",
+                    "symfony/monolog-bundle": "dev-master",
+                    "sensio/distribution-bundle": "dev-master",
+                    "sensio/framework-extra-bundle": "dev-master",
+                    "sensio/generator-bundle": "dev-master",
+                    "jms/security-extra-bundle": "1.1.*",
+                    "jms/di-extra-bundle": "1.0.*"
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+                    ],
+                    "post-update-cmd": [
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+                    ]
+                },
+                "type": "library",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-web-dir": "web"
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Yura Rodchyn",
+                        "homepage": "http://rodchyn.github.com/"
+                    }
+                ],
+                "description": "Performance Engine game backend system",
+                "homepage": "http://performance-engine.github.com/",
+                "keywords": [
+                    "performance-engine",
+                    "game"
+                ],
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                }
+            }
+        }
+    }
+}
