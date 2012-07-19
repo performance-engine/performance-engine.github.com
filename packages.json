@@ -5,11 +5,11 @@
                 "name": "performance-engine/performance-engine",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-07-17 17:13:05",
+                "time": "2012-07-18 01:45:07",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/performance-engine/performance-engine.git",
-                    "reference": "ac2ea3e7ac458ac65529f3384c950f48ec7bb5a2"
+                    "reference": "1a7393ac1768e4516329a3bc9a42c64835b1e740"
                 },
                 "require": {
                     "php": ">=5.3.3",
@@ -70,11 +70,11 @@
                 "name": "performance-engine/performance-engine",
                 "version": "dev-develop",
                 "version_normalized": "dev-develop",
-                "time": "2012-07-17 16:39:40",
+                "time": "2012-07-18 01:45:07",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/performance-engine/performance-engine.git",
-                    "reference": "0da7a7fe2cd339f278b42f10e1353c9fc05c1d33"
+                    "reference": "1a7393ac1768e4516329a3bc9a42c64835b1e740"
                 },
                 "require": {
                     "php": ">=5.3.3",
