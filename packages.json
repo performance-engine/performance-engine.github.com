@@ -1,15 +1,69 @@
 {
     "packages": {
+        "performance-engine/data-configurator-bundle": {
+            "dev-master": {
+                "name": "performance-engine/data-configurator-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "time": "2012-08-03 12:57:37",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/performance-engine/DataConfiguratorBundle.git",
+                    "reference": "49b9ddb49185a3a44637205dad6885d7fb7bd5eb"
+                },
+                "require": {
+                    "performance-engine/doctrine-virtual-orm": "*"
+                },
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Yura Rodchyn",
+                        "email": "rodchyn@gmail.com"
+                    }
+                ],
+                "description": "Symfony Bundle to integrate doctrine-virtual-orm"
+            }
+        },
+        "performance-engine/doctrine-virtual-orm": {
+            "dev-master": {
+                "name": "performance-engine/doctrine-virtual-orm",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "time": "2012-08-03 12:55:40",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/performance-engine/doctrine-virtual-orm.git",
+                    "reference": "b487ab88318fda18a9c207c7fe6d2c6f264ad193"
+                },
+                "require": {
+                    "jquery/sheet": "*"
+                },
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Yura Rodchyn",
+                        "email": "rodchyn@gmail.com"
+                    }
+                ],
+                "description": "On the fly configurable entities and relations in doctrine style"
+            }
+        },
         "performance-engine/performance-engine": {
             "dev-master": {
                 "name": "performance-engine/performance-engine",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-07-18 01:45:07",
+                "time": "2012-07-27 17:41:42",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/performance-engine/performance-engine.git",
-                    "reference": "1a7393ac1768e4516329a3bc9a42c64835b1e740"
+                    "reference": "2338d7d89c583c48c56287ce2d544ae47dfa4d2e"
                 },
                 "require": {
                     "php": ">=5.3.3",
@@ -24,7 +78,10 @@
                     "sensio/framework-extra-bundle": "dev-master",
                     "sensio/generator-bundle": "dev-master",
                     "jms/security-extra-bundle": "1.1.*",
-                    "jms/di-extra-bundle": "1.0.*"
+                    "jms/di-extra-bundle": "1.0.*",
+                    "jms/aop-bundle": "*",
+                    "jmikola/wildcard-event-dispatcher-bundle": "dev-master",
+                    "leek/git-debug-bundle": "*"
                 },
                 "scripts": {
                     "post-install-cmd": [
@@ -70,11 +127,11 @@
                 "name": "performance-engine/performance-engine",
                 "version": "dev-develop",
                 "version_normalized": "dev-develop",
-                "time": "2012-07-18 01:45:07",
+                "time": "2012-07-27 17:41:42",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/performance-engine/performance-engine.git",
-                    "reference": "1a7393ac1768e4516329a3bc9a42c64835b1e740"
+                    "reference": "2338d7d89c583c48c56287ce2d544ae47dfa4d2e"
                 },
                 "require": {
                     "php": ">=5.3.3",
@@ -89,7 +146,10 @@
                     "sensio/framework-extra-bundle": "dev-master",
                     "sensio/generator-bundle": "dev-master",
                     "jms/security-extra-bundle": "1.1.*",
-                    "jms/di-extra-bundle": "1.0.*"
+                    "jms/di-extra-bundle": "1.0.*",
+                    "jms/aop-bundle": "*",
+                    "jmikola/wildcard-event-dispatcher-bundle": "dev-master",
+                    "leek/git-debug-bundle": "*"
                 },
                 "scripts": {
                     "post-install-cmd": [
