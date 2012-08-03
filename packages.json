@@ -6,11 +6,11 @@
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "target-dir": "PerformanceEngine/Bundle/DataConfiguratorBundle",
-                "time": "2012-08-03 13:51:47",
+                "time": "2012-08-03 14:08:27",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/performance-engine/DataConfiguratorBundle.git",
-                    "reference": "db2c2a2e97d5fd7a0d1221c6ff8e4d70112e8ce9"
+                    "reference": "3febfb791b1f6b387c66064476694d8e7b9151f3"
                 },
                 "require": {
                     "performance-engine/doctrine-virtual-orm": "*"
