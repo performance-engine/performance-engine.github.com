@@ -38,14 +38,11 @@
                 "name": "performance-engine/doctrine-virtual-orm",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-08-03 12:55:40",
+                "time": "2012-08-03 13:55:35",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/performance-engine/doctrine-virtual-orm.git",
-                    "reference": "b487ab88318fda18a9c207c7fe6d2c6f264ad193"
-                },
-                "require": {
-                    "jquery/sheet": "*"
+                    "reference": "f9d595ea92113503b7e3b88be38dc52e1befb4b1"
                 },
                 "type": "library",
                 "license": [
