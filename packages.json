@@ -1,32 +1,5 @@
 {
     "packages": {
-        "performance-engine/data-configurator-bundle": {
-            "dev-master": {
-                "name": "performance-engine/data-configurator-bundle",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "time": "2012-08-03 12:57:37",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/performance-engine/DataConfiguratorBundle.git",
-                    "reference": "49b9ddb49185a3a44637205dad6885d7fb7bd5eb"
-                },
-                "require": {
-                    "performance-engine/doctrine-virtual-orm": "*"
-                },
-                "type": "library",
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yura Rodchyn",
-                        "email": "rodchyn@gmail.com"
-                    }
-                ],
-                "description": "Symfony Bundle to integrate doctrine-virtual-orm"
-            }
-        },
         "performance-engine/doctrine-virtual-orm": {
             "dev-master": {
                 "name": "performance-engine/doctrine-virtual-orm",
