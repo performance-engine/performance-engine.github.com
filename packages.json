@@ -62,11 +62,11 @@
                 "name": "performance-engine/performance-engine",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-08-09 11:13:29",
+                "time": "2012-08-10 17:39:55",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/performance-engine/performance-engine.git",
-                    "reference": "98f7ebd8f43132a4feec55c2141735292944b938"
+                    "reference": "f0851642546336454316629d777cce9b68ec6c70"
                 },
                 "require": {
                     "php": ">=5.3.3",
