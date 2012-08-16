@@ -6,11 +6,17 @@
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "target-dir": "PerformanceEngine/Bundle/DataConfiguratorBundle",
-                "time": "2012-08-03 14:17:13",
+                "time": "2012-08-03 17:17:13",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/performance-engine/DataConfiguratorBundle.git",
+                    "url": "https://github.com/performance-engine/DataConfiguratorBundle",
                     "reference": "0ab339a0ff563d20acacbc1354af9a4f453910c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/performance-engine/DataConfiguratorBundle/zipball/0ab339a0ff563d20acacbc1354af9a4f453910c4",
+                    "reference": "0ab339a0ff563d20acacbc1354af9a4f453910c4",
+                    "shasum": ""
                 },
                 "require": {
                     "performance-engine/doctrine-virtual-orm": "*"
@@ -30,6 +36,10 @@
                     "psr-0": {
                         "PerformanceEngine\\Bundle\\DataConfiguratorBundle": ""
                     }
+                },
+                "support": {
+                    "source": "https://github.com/performance-engine/DataConfiguratorBundle/tree/master",
+                    "issues": "https://github.com/performance-engine/DataConfiguratorBundle/issues"
                 }
             }
         },
@@ -38,11 +48,17 @@
                 "name": "performance-engine/doctrine-virtual-orm",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-08-03 13:55:35",
+                "time": "2012-08-03 16:55:35",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/performance-engine/doctrine-virtual-orm.git",
+                    "url": "https://github.com/performance-engine/doctrine-virtual-orm",
                     "reference": "f9d595ea92113503b7e3b88be38dc52e1befb4b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/performance-engine/doctrine-virtual-orm/zipball/f9d595ea92113503b7e3b88be38dc52e1befb4b1",
+                    "reference": "f9d595ea92113503b7e3b88be38dc52e1befb4b1",
+                    "shasum": ""
                 },
                 "type": "library",
                 "license": [
@@ -54,31 +70,35 @@
                         "email": "rodchyn@gmail.com"
                     }
                 ],
-                "description": "On the fly configurable entities and relations in doctrine style"
+                "description": "On the fly configurable entities and relations in doctrine style",
+                "support": {
+                    "source": "https://github.com/performance-engine/doctrine-virtual-orm/tree/master",
+                    "issues": "https://github.com/performance-engine/doctrine-virtual-orm/issues"
+                }
             }
         },
-        "performance-engine/logger": {
+        "performance-engine/logger-bundle": {
             "dev-master": {
-                "name": "performance-engine/logger",
+                "name": "performance-engine/logger-bundle",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-08-16 15:53:40",
+                "time": "2012-08-16 16:12:28",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/performance-engine/logger",
-                    "reference": "8eabf81a26b5dc3f9e295d1a9c140c23c471968a"
+                    "url": "https://github.com/performance-engine/LoggerBundle",
+                    "reference": "e543920728758752a37a04ca0d028dbae2396bce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/performance-engine/logger/zipball/8eabf81a26b5dc3f9e295d1a9c140c23c471968a",
-                    "reference": "8eabf81a26b5dc3f9e295d1a9c140c23c471968a",
+                    "url": "https://github.com/performance-engine/LoggerBundle/zipball/e543920728758752a37a04ca0d028dbae2396bce",
+                    "reference": "e543920728758752a37a04ca0d028dbae2396bce",
                     "shasum": ""
                 },
                 "require": {
                     "monolog/monolog": "dev-master",
                     "mlehner/gelf-php": "v1.0"
                 },
-                "type": "library",
+                "type": "symfony-bundle",
                 "license": [
                     "MIT"
                 ],
@@ -88,10 +108,10 @@
                         "email": "rodchyn@gmail.com"
                     }
                 ],
-                "description": "GrayLog2 logger for performance engine",
+                "description": "GrayLog2 logger bundle for performance engine",
                 "support": {
-                    "source": "https://github.com/performance-engine/logger/tree/master",
-                    "issues": "https://github.com/performance-engine/logger/issues"
+                    "source": "https://github.com/performance-engine/LoggerBundle/tree/master",
+                    "issues": "https://github.com/performance-engine/LoggerBundle/issues"
                 }
             }
         },
@@ -100,11 +120,17 @@
                 "name": "performance-engine/performance-engine",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-08-10 17:50:00",
+                "time": "2012-08-10 20:50:00",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/performance-engine/performance-engine.git",
+                    "url": "https://github.com/performance-engine/performance-engine",
                     "reference": "492d14dec7da6b30065d47a70bb50602a443939e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/performance-engine/performance-engine/zipball/492d14dec7da6b30065d47a70bb50602a443939e",
+                    "reference": "492d14dec7da6b30065d47a70bb50602a443939e",
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.3",
@@ -163,17 +189,27 @@
                     "psr-0": {
                         "": "src/"
                     }
+                },
+                "support": {
+                    "source": "https://github.com/performance-engine/performance-engine/tree/master",
+                    "issues": "https://github.com/performance-engine/performance-engine/issues"
                 }
             },
             "dev-develop": {
                 "name": "performance-engine/performance-engine",
                 "version": "dev-develop",
                 "version_normalized": "dev-develop",
-                "time": "2012-07-27 17:41:42",
+                "time": "2012-07-27 20:41:42",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/performance-engine/performance-engine.git",
+                    "url": "https://github.com/performance-engine/performance-engine",
                     "reference": "2338d7d89c583c48c56287ce2d544ae47dfa4d2e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/performance-engine/performance-engine/zipball/2338d7d89c583c48c56287ce2d544ae47dfa4d2e",
+                    "reference": "2338d7d89c583c48c56287ce2d544ae47dfa4d2e",
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.3",
@@ -231,6 +267,10 @@
                     "psr-0": {
                         "": "src/"
                     }
+                },
+                "support": {
+                    "source": "https://github.com/performance-engine/performance-engine/tree/develop",
+                    "issues": "https://github.com/performance-engine/performance-engine/issues"
                 }
             }
         }
