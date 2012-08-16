@@ -13,7 +13,19 @@
     <link rel="stylesheet" href="stylesheets/ie.css">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <script type="text/javascript">
+    function selectText(el) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(el);
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(el);
+            window.getSelection().addRange(range);
+        }
+    }
+    </script>
   </head>
   <body>
       <div id="header">
@@ -33,7 +45,7 @@
 
 <h3>To install engine use next:</h3> 
 
-<pre><code>curl -s http://getcomposer.org/installer | php
+<pre><code onclick="selectText(this)">curl -s http://getcomposer.org/installer | php
 php composer.phar create-project performance-engine/performance-engine <strong>best-game</strong></code></pre>
 
 <img src="https://secure.travis-ci.org/performance-engine/performance-engine.png">
@@ -41,7 +53,7 @@ php composer.phar create-project performance-engine/performance-engine <strong>b
 <h3>Here is the list of packages performance-engine provide</h3>
 
                                         <h4><!--else--><a href="">Symfony Bundle to integrate doctrine-virtual-orm</a></h4>
-                                                                <pre><code>performance-engine/data-configurator-bundle</code></pre>
+                                                                <pre><code onclick="selectText(this)">performance-engine/data-configurator-bundle</code></pre>
                                         <!--
                     <table>
                                                                             <tr>
@@ -60,7 +72,7 @@ php composer.phar create-project performance-engine/performance-engine <strong>b
                         </tr>
                     </table>-->
                                                         <h4><!--else--><a href="">On the fly configurable entities and relations in doctrine style</a></h4>
-                                                                <pre><code>performance-engine/doctrine-virtual-orm</code></pre>
+                                                                <pre><code onclick="selectText(this)">performance-engine/doctrine-virtual-orm</code></pre>
                                         <!--
                     <table>
                                                                             <tr>
@@ -79,7 +91,7 @@ php composer.phar create-project performance-engine/performance-engine <strong>b
                         </tr>
                     </table>-->
                                                         <h4><!--else--><a href="">GrayLog2 logger bundle for performance engine</a></h4>
-                                                                <pre><code>performance-engine/logger-bundle</code></pre>
+                                                                <pre><code onclick="selectText(this)">performance-engine/logger-bundle</code></pre>
                                         <!--
                     <table>
                                                                             <tr>
@@ -98,7 +110,7 @@ php composer.phar create-project performance-engine/performance-engine <strong>b
                         </tr>
                     </table>-->
                                                         <h4><a href="http://performance-engine.github.com/">Performance Engine game backend system</a></h4>
-                                                                <pre><code>performance-engine/performance-engine</code></pre>
+                                                                <pre><code onclick="selectText(this)">performance-engine/performance-engine</code></pre>
                                         <!--
                     <table>
                                                     <tr>
