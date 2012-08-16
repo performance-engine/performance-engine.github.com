@@ -82,20 +82,21 @@
                 "name": "performance-engine/logger-bundle",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
-                "time": "2012-08-16 16:12:28",
+                "target-dir": "PerformanceEngine/Bundle/LoggerBundle",
+                "time": "2012-08-16 20:58:24",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/performance-engine/LoggerBundle",
-                    "reference": "e543920728758752a37a04ca0d028dbae2396bce"
+                    "reference": "345a7e8f4e277b0ab75971ec8a8def740fa812b0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/performance-engine/LoggerBundle/zipball/e543920728758752a37a04ca0d028dbae2396bce",
-                    "reference": "e543920728758752a37a04ca0d028dbae2396bce",
+                    "url": "https://github.com/performance-engine/LoggerBundle/zipball/345a7e8f4e277b0ab75971ec8a8def740fa812b0",
+                    "reference": "345a7e8f4e277b0ab75971ec8a8def740fa812b0",
                     "shasum": ""
                 },
                 "require": {
-                    "monolog/monolog": "dev-master",
+                    "monolog/monolog": "1.*",
                     "mlehner/gelf-php": "v1.0"
                 },
                 "type": "symfony-bundle",
@@ -109,6 +110,11 @@
                     }
                 ],
                 "description": "GrayLog2 logger bundle for performance engine",
+                "autoload": {
+                    "psr-0": {
+                        "PerformanceEngine\\Bundle\\LoggerBundle": ""
+                    }
+                },
                 "support": {
                     "source": "https://github.com/performance-engine/LoggerBundle/tree/master",
                     "issues": "https://github.com/performance-engine/LoggerBundle/issues"
