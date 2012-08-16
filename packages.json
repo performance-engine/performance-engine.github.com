@@ -57,6 +57,44 @@
                 "description": "On the fly configurable entities and relations in doctrine style"
             }
         },
+        "performance-engine/logger": {
+            "dev-master": {
+                "name": "performance-engine/logger",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "time": "2012-08-16 15:53:40",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/performance-engine/logger",
+                    "reference": "8eabf81a26b5dc3f9e295d1a9c140c23c471968a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/performance-engine/logger/zipball/8eabf81a26b5dc3f9e295d1a9c140c23c471968a",
+                    "reference": "8eabf81a26b5dc3f9e295d1a9c140c23c471968a",
+                    "shasum": ""
+                },
+                "require": {
+                    "monolog/monolog": "dev-master",
+                    "mlehner/gelf-php": "v1.0"
+                },
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Yura Rodchyn",
+                        "email": "rodchyn@gmail.com"
+                    }
+                ],
+                "description": "GrayLog2 logger for performance engine",
+                "support": {
+                    "source": "https://github.com/performance-engine/logger/tree/master",
+                    "issues": "https://github.com/performance-engine/logger/issues"
+                }
+            }
+        },
         "performance-engine/performance-engine": {
             "dev-master": {
                 "name": "performance-engine/performance-engine",
